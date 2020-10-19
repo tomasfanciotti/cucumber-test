@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Deposito en cuenta" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-19T21:11:41" hostname="ubuntu-tomas" time="0.049">
+  <properties/>
+  <testcase name="Given Dada una cuenta con 1500 pesos" classname="Scenario: Deposito en cuenta" time="0.008"/>
+  <testcase name="When Le deposito 8000 pesos" classname="Scenario: Deposito en cuenta" time="0.001"/>
+  <testcase name="Then Debo tener ahora 9500 pesos" classname="Scenario: Deposito en cuenta" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Deposito en cuenta" time="0.536"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

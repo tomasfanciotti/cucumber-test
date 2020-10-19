@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Resta de dos numeros" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-19T21:11:41" hostname="ubuntu-tomas" time="0.012">
+  <properties/>
+  <testcase name="Given El numero 50" classname="Scenario: Resta de dos numeros" time="0.001"/>
+  <testcase name="When Le resto el numero 10" classname="Scenario: Resta de dos numeros" time="0.0"/>
+  <testcase name="Then Debo tener el numero 40" classname="Scenario: Resta de dos numeros" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Resta de dos numeros" time="0.021"/>
+  <system-out><![CDATA[
+  Scenario: Suma de dos numeros  ?[90m# calculadora.feature:3?[0m
+    ?[32mGiven ?[0m?[32mEl numero ?[0m?[32m?[1m50?[0m           ?[90m# StepDefinitions.Dado_un_numero(int)?[0m
+    ?[32mWhen ?[0m?[32mLe sumo el numero ?[0m?[32m?[1m20?[0m    ?[90m# StepDefinitions.Le_sumo_otro_numero(int)?[0m
+    ?[32mThen ?[0m?[32mDebo tener el numero ?[0m?[32m?[1m70?[0m ?[90m# StepDefinitions.Debo_tener_el_numero(int)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

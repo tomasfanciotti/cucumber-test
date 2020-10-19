@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RunCucumberTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ubuntu-tomas" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Banco
+
+  Scenario: Deposito en cuenta           ?[90m# Bank.feature:3?[0m
+    ?[32mGiven ?[0m?[32mDada una cuenta con ?[0m?[32m?[1m1500?[0m?[32m pesos?[0m ?[90m# StepDefinitions.Dada_una_cuenta_con_pesos(int)?[0m
+    ?[32mWhen ?[0m?[32mLe deposito ?[0m?[32m?[1m8000?[0m?[32m pesos?[0m          ?[90m# StepDefinitions.Le_deposito_mas_pesos(int)?[0m
+    ?[32mThen ?[0m?[32mDebo tener ahora ?[0m?[32m?[1m9500?[0m?[32m pesos?[0m     ?[90m# StepDefinitions.Debo_tener_de_saldo(int)?[0m
+Feature: Calculadora
+
+  Scenario: Resta de dos numeros ?[90m# calculadora.feature:9?[0m
+    ?[32mGiven ?[0m?[32mEl numero ?[0m?[32m?[1m50?[0m           ?[90m# StepDefinitions.Dado_un_numero(int)?[0m
+    ?[32mWhen ?[0m?[32mLe resto el numero ?[0m?[32m?[1m10?[0m   ?[90m# StepDefinitions.Le_resto_otro_numero(int)?[0m
+    ?[32mThen ?[0m?[32mDebo tener el numero ?[0m?[32m?[1m40?[0m ?[90m# StepDefinitions.Debo_tener_el_numero(int)?[0m
+
+3 Scenarios (?[32m3 passed?[0m)
+9 Steps (?[32m9 passed?[0m)
+0m0,475s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

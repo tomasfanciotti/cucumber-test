@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Suma de dos numeros" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-19T21:11:41" hostname="ubuntu-tomas" time="0.008">
+  <properties/>
+  <testcase name="Given El numero 50" classname="Scenario: Suma de dos numeros" time="0.0"/>
+  <testcase name="When Le sumo el numero 20" classname="Scenario: Suma de dos numeros" time="0.0"/>
+  <testcase name="Then Debo tener el numero 70" classname="Scenario: Suma de dos numeros" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Suma de dos numeros" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
